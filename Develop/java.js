@@ -5,7 +5,7 @@ var container = $(".container")
 
 var arrTime = ["9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"];
 
-for(i=0; i<arrTime.length; i++){
+for (i = 0; i < arrTime.length; i++) {
     var newRow = $("<div>").attr("class", "row")
     var newDiv = $("<div>").attr("class", "col-2")
     var newP = $("<p>").text(arrTime[i])
